@@ -5,7 +5,6 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from typing import Dict, Any
-import pandas as pd
 
 
 def render_document_upload() -> Any:

@@ -4,12 +4,14 @@ AI-powered legal document analyzer using Google Gemini
 import google.generativeai as genai
 from typing import Dict, List, Any, Optional
 import os
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not available in cloud deployment
+    pass
 import json
 import re
-
-# Load environment variables
-load_dotenv()
 
 
 class LegalDocumentAnalyzer:

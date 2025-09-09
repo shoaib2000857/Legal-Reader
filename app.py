@@ -6,7 +6,6 @@ import streamlit as st
 import os
 import sys
 from pathlib import Path
-import pandas as pd
 from datetime import datetime
 
 # Add src directory to path for imports
@@ -94,17 +93,31 @@ def main():
     if 'analysis_complete' not in st.session_state:
         st.session_state.analysis_complete = False
     
-    # Check for API key
-    api_key = os.getenv('GOOGLE_API_KEY')
+    # Check for API key (Streamlit Cloud or local .env)
+    api_key = None
+    
+    # Try Streamlit secrets first (for cloud deployment)
+    try:
+        api_key = st.secrets["GOOGLE_API_KEY"]
+    except (KeyError, FileNotFoundError):
+        # Fall back to environment variable (for local development)
+        api_key = os.getenv('GOOGLE_API_KEY')
+    
     if not api_key:
         st.error("""
         🔑 **Google API Key Required**
         
         To use this application, you need to set up a Google API key:
+        
+        **For Local Development:**
         1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
         2. Create a new API key
         3. Set the environment variable: `GOOGLE_API_KEY=your_api_key_here`
         4. Or create a `.env` file with your API key
+        
+        **For Streamlit Cloud:**
+        1. Go to your app settings in Streamlit Cloud
+        2. Add a secret: `GOOGLE_API_KEY = "your_api_key_here"`
         """)
         st.stop()
     
