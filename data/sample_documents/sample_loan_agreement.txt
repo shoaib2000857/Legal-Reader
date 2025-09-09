@@ -1,0 +1,45 @@
+PERSONAL LOAN AGREEMENT
+
+This Personal Loan Agreement ("Agreement") is made on [DATE] between [LENDER NAME] ("Lender") and [BORROWER NAME] ("Borrower").
+
+LOAN DETAILS
+Principal Amount: $[AMOUNT]
+Interest Rate: [RATE]% per annum
+Loan Term: [MONTHS] months
+Monthly Payment: $[PAYMENT_AMOUNT]
+First Payment Due: [DATE]
+
+PAYMENT TERMS
+Borrower agrees to repay the loan in equal monthly installments of $[PAYMENT_AMOUNT] on the [DAY] day of each month until the loan is paid in full. Payments shall be made to [PAYMENT_ADDRESS] or via [PAYMENT_METHOD].
+
+LATE PAYMENT PENALTIES
+If any payment is more than 10 days late, Borrower will be charged a late fee of $25 or 5% of the payment amount, whichever is greater. If payment is more than 30 days late, the entire remaining balance becomes immediately due and payable.
+
+DEFAULT CONDITIONS
+Borrower will be in default if:
+- Any payment is more than 30 days overdue
+- Borrower files for bankruptcy
+- Borrower provides false information in the loan application
+- Borrower dies or becomes incapacitated
+
+ACCELERATION CLAUSE
+Upon default, Lender may declare the entire unpaid balance immediately due and payable, plus any accrued interest and fees.
+
+COLLECTION COSTS
+If this loan goes into default, Borrower agrees to pay all collection costs including reasonable attorney fees, court costs, and collection agency fees.
+
+PREPAYMENT
+Borrower may prepay this loan in whole or in part at any time without penalty.
+
+SECURITY/COLLATERAL
+This loan is [SECURED/UNSECURED]. If secured, the collateral is described as: [COLLATERAL_DESCRIPTION]
+
+GOVERNING LAW
+This agreement shall be governed by the laws of [STATE].
+
+ENTIRE AGREEMENT
+This document contains the entire agreement between the parties. No changes may be made except in writing signed by both parties.
+
+Lender: _____________________ Date: _________
+
+Borrower: ____________________ Date: _________
